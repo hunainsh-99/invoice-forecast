@@ -1,10 +1,10 @@
-# 🧾 Invoice-Forecast
+# Invoice-Forecast
 
 A complete pipeline for cleaning, aggregating, and forecasting monthly revenue for Argas and BGP invoices, with an interactive Streamlit dashboard.
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Data Cleaning** (`src/clean.py`):  
 
