@@ -7,15 +7,25 @@ A complete pipeline for cleaning, aggregating, and forecasting monthly revenue f
 ## 🚀 Features
 
 - **Data Cleaning** (`src/clean.py`):  
+
   Reads raw Excel (`InvoiceList.xlsx`), normalizes columns, parses dates, casts amounts to numeric, writes `invoices_clean.parquet`.
+
 - **Feature Engineering** (`src/features.py`):  
+
   Computes days-open, aging buckets, and late-payment labels, saves `features.parquet`.
+
 - **Aggregation** (`src/aggregate.py`):  
+
   Filters to **ARGAS** and **BGP**, sums monthly and yearly totals, writes `monthly_totals.csv` and `yearly_totals.csv`.
+
 - **Forecasting** (`src/forecast_revenue.py`):  
+
   Uses Prophet to generate a 12-month revenue forecast per company, writes `revenue_forecast.csv`.
+
 - **Visualization**:  
+
   - Static plots: `monthly_revenue.png`, `yearly_revenue.png`, `rev_history_forecast.png`
+
   - **Interactive Streamlit Dashboard** (`app.py`): Company selection, dynamic plots, and data tables.
 
 ---
