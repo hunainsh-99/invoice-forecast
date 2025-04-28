@@ -30,14 +30,14 @@ A complete pipeline for cleaning, aggregating, and forecasting monthly revenue f
 
 ---
 
-## 🧠 Business Impact
+## Business Impact
 
 Forecasting future invoice revenue helps organizations plan cash flow, allocate budgets, and optimize staffing.  
 This project simulates a real-world financial reporting and forecasting workflow that supports data-driven decision-making across finance and operations.
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Python 3.10+**
 - **Data Processing**: pandas, pyarrow, openpyxl
@@ -47,7 +47,7 @@ This project simulates a real-world financial reporting and forecasting workflow
 
 ---
 
-## 📥 Installation
+## Installation
 
 Clone the repository and set up the environment:
 
@@ -60,7 +60,7 @@ source .venv/bin/activate
 
 pip install -r requirements.txt
 
-🎯 Usage
+Usage
 
 Step 1: Clean raw invoice data
 
@@ -106,7 +106,7 @@ Edit
 streamlit run app.py
 
 
-📂 Project Structure
+Project Structure
 
 invoice-forecast/
 │
