@@ -51,30 +51,35 @@ source .venv/bin/activate
 pip install -r requirements.txt
 
 🎯 Usage
+
 Step 1: Clean raw invoice data
 
 bash
 Copy
 Edit
 python src/clean.py
+
 Step 2: Build feature table (optional)
 
 bash
 Copy
 Edit
 python src/features.py
+
 Step 3: Aggregate monthly and yearly totals
 
 bash
 Copy
 Edit
 python src/aggregate.py
+
 Step 4: Generate 12-month revenue forecast
 
 bash
 Copy
 Edit
 python src/forecast_revenue.py
+
 Step 5: Produce static charts
 
 bash
@@ -82,16 +87,17 @@ Copy
 Edit
 python src/plot_aggregates.py
 python src/plot_forecast.py
+
 Step 6: Launch the Streamlit dashboard
 
 bash
 Copy
 Edit
 streamlit run app.py
+
+
 📂 Project Structure
-bash
-Copy
-Edit
+
 invoice-forecast/
 │
 ├── data/
